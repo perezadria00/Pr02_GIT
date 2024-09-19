@@ -15,6 +15,13 @@ class Person
   private $age;
   
   /**
+     * Name of person
+     *
+     * @var string
+     */
+    private $name;
+
+  /**
    * Get age of person
    *
    * @return  int
@@ -37,7 +44,33 @@ class Person
       
       return $this;
     }
-    function run(){
+
+    /**
+     * Get name of person
+     *
+     * @return string
+     */
+    public function getName()
+    {
+        return $this->name;
+    }
+
+    /**
+     * Set name of person
+     *
+     * @param string $name Name of person
+     *
+     * @return self
+     */
+    public function setName(string $name)
+    {
+        $this->name = $name;
+
+        return $this;
+    }
+
+    function run()
+    {
       echo "running";
     }
 }
