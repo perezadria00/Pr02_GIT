@@ -73,11 +73,10 @@ class Team
     public function setPlayers(ArrayObject $players)
     {
         $this->players = $players;
+        //prueba para crear
     }
 
 
 
-    //Esta es una prueba para hacer un conflicto
-    //....
-    //.............
+    
 }
