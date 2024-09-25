@@ -75,11 +75,9 @@ class Team
         $this->players = $players;
     }
 
-    /**
-     * Start the game.
-     */
-    public function play()
-    {
-        echo "The game is starting with {$this->name} team.";
-    }
+
+
+    //Esta es una prueba para hacer un conflicto
+    //....
+    //.............
 }
