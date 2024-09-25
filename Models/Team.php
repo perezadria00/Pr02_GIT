@@ -81,6 +81,6 @@ class Team
      */
     public function play()
     {
-        echo "The game is starting with {$this->name} team.";
+        echo "Thestarting with {$this->name} team.";
     }
 }
