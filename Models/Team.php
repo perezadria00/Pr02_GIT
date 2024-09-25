@@ -73,10 +73,14 @@ class Team
     public function setPlayers(ArrayObject $players)
     {
         $this->players = $players;
-        //prueba para crear
+        //prueba2
     }
 
-
-
-    
+    /**
+     * Start the game.
+     */
+    public function play()
+    {
+        echo "The game is starting with {$this->name} team.";
+    }
 }
