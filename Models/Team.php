@@ -73,6 +73,7 @@ class Team
     public function setPlayers(ArrayObject $players)
     {
         $this->players = $players;
+        //prueba2
     }
 
 
@@ -81,3 +82,5 @@ class Team
     //....
     //.............
 }
+
+
